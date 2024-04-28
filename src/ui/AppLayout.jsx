@@ -7,14 +7,14 @@ function AppLayout() {
   const { state } = useNavigation();
 
   return (
-    <div>
+    <div className="gird-rows-[auto_1fr_auto] grid h-screen">
       <Header />
 
       {state === "loading" ? (
         <Loader />
       ) : (
         <>
-          <main>
+          <main className="mx-auto my-auto max-w-3xl overflow-hidden ">
             <Outlet />
           </main>
 

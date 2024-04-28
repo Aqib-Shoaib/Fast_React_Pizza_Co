@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function CartOverview() {
   return (
-    <div>
-      <p>
+    <div className=" fixed bottom-0 left-0 right-0 flex items-center justify-between bg-stone-800 px-4 py-2.5 text-sm uppercase text-stone-200 sm:px-6 md:text-base ">
+      <p className="space-x-4 font-semibold text-stone-300 sm:space-x-6 ">
         <span>23 pizzas</span>
         <span>$23.45</span>
       </p>
