@@ -14,7 +14,7 @@ function AppLayout() {
         <Loader />
       ) : (
         <>
-          <main className="mx-auto my-auto max-w-3xl overflow-hidden ">
+          <main className="max-w-3xl overflow-scroll px-2 ">
             <Outlet />
           </main>
 
