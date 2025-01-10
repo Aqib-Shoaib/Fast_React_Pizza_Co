@@ -6,7 +6,7 @@ function CartOverview() {
   const totalPizzas = useSelector(getTotalPizzaQuantity);
   const totalCartPrice = useSelector(getTotalCartPrice);
   return (
-    <div className="  flex items-center justify-between bg-stone-800 px-4 py-2.5 text-sm uppercase text-stone-200 sm:px-6 md:text-base ">
+    <div className="flex items-center justify-between bg-stone-800 px-4 py-2.5 text-sm uppercase text-stone-200 sm:px-6 md:text-base ">
       <p className="space-x-4 font-semibold text-stone-300 sm:space-x-6 ">
         <span>{totalPizzas} pizzas</span>
         <span>${totalCartPrice}</span>
